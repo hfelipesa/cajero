@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/Style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Noto+Sans:ital,wght@1,100&family=Poppins:wght@100;300&family=Sura:wght@700&display=swap" rel="stylesheet">
+    <title>Banca Movil</title>
+</head>
+<body>
+<main class="container">
+    <header class="header">
+        <img class="logo" src="./assets/img/logoUno.png" alt="">
+        <h1>SUCURSAL VIRTUAL</h1>
+        <div>
+            <a href="">NOSOTROS</a>
+            <a href="">CONTACTO</a>
+        </div>
+    </header>
+<section >
+    <section>
+        <form class="containerForm">
+            <h1>Bienvenido a tu portal de transaciones</h1>
+            <label for="usuario"></label>
+            <input type="text" id="usuario" placeholder="usuario">
+            <label for="contrasena"></label>
+            <input type="password" id="contrasena" placeholder="Contraseña">
+            <button type="button" id="autenticar">Iniciar Sesion</button>
+            <button type="button" id="registro" >Registrar</button>            
+       </form>
+       
+    </section>
+    
+   <section>
+    <form class="containerRegistro"">
+        <h1>Bienvenido al formulario registro</h1>
+        <h2>Por favor completa los campos correctamente</h2>
+            <label for="nuevouUsario"></label>
+            <input type="text" id="nuevouUsario" placeholder="Nombre usuario">
+            <label for="nuevaContrasena"></label>
+            <input type="password" id="nuevaContrasena" placeholder="Nueva Contraseña">
+            <label for="confirmarContrasena"></label>
+            <input type="password" id="confirmarContrasena" placeholder="Confirmar Contraseña">
+            <label for="Correo"></label>
+            <input type="email" id="Correo" placeholder="Correo Electronico">
+            <input type="text" id="monto" placeholder="monto minimo 100.000">
+            <button type="submit" onclick="registrar()" >Registrarte</button> 
+       </form> 
+   </section>
+   
+  
+   <section id="mostrarForm"></section> 
+</section>    
+
+ <section id="container" class="containerItems">
+     <section>
+        <img src="./assets/img/resuelto.png" alt="">
+        <input type="button" value="CONSULTAR SALDO" >
+    </section>
+
+    <section>
+        <img src="./assets/img/dinero.png" alt="">
+         <input id="dd" type="button" value="RETIRAR DINERO">
+    </section>
+
+    <section>
+        <img src="./assets/img/transferir.png" alt="">
+         <input id="" type="button" value="TRANSFERIR DINERO">
+    </section>
+
+    <section>
+        <img src="./assets/img/depositar.png" alt="">
+        <input id="" type="button" value="CONSIGNAR DINERO">
+    </section>
+    
+ </section> 
+ <div  id="M"></div>  
+   
+</main>
+
+<section id="" ></section>
+    
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
